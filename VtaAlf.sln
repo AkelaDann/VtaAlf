@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VtaAlf.App", "VtaAlf.App\VtaAlf.App.csproj", "{51F18F55-6338-47D9-B75C-EF61C2F522C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VtaAlf.App", "VtaAlf.App\VtaAlf.App.csproj", "{51F18F55-6338-47D9-B75C-EF61C2F522C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VtaAlf.Mod", "VtaAlf.Mod\VtaAlf.Mod.csproj", "{4D1C5BD6-F94A-4293-B943-38131FF8015A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VtaAlf.Mod", "VtaAlf.Mod\VtaAlf.Mod.csproj", "{4D1C5BD6-F94A-4293-B943-38131FF8015A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VtaAlf.Fll", "VtaAlf.Fll\VtaAlf.Fll.csproj", "{004A26E4-50B7-4C21-8220-83B0E3125299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VtaAlf.Fll", "VtaAlf.Fll\VtaAlf.Fll.csproj", "{004A26E4-50B7-4C21-8220-83B0E3125299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VtaAlf.Dal", "VtaAlf.Dal\VtaAlf.Dal.csproj", "{9603FA3B-0D38-46A1-8938-B0747207EACC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VtaAlf.Dal", "VtaAlf.Dal\VtaAlf.Dal.csproj", "{9603FA3B-0D38-46A1-8938-B0747207EACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VtaAlf.Dto", "VtaAlf.Dto\VtaAlf.Dto.csproj", "{9F400DD6-20CA-42CB-AD5B-1A54528240A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VtaAlf.ViewModels", "VtaAlf.ViewModels\VtaAlf.ViewModels.csproj", "{2E177D86-FF99-423E-A20B-4B33C373D5F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{9603FA3B-0D38-46A1-8938-B0747207EACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9603FA3B-0D38-46A1-8938-B0747207EACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9603FA3B-0D38-46A1-8938-B0747207EACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F400DD6-20CA-42CB-AD5B-1A54528240A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F400DD6-20CA-42CB-AD5B-1A54528240A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F400DD6-20CA-42CB-AD5B-1A54528240A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F400DD6-20CA-42CB-AD5B-1A54528240A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E177D86-FF99-423E-A20B-4B33C373D5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E177D86-FF99-423E-A20B-4B33C373D5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E177D86-FF99-423E-A20B-4B33C373D5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E177D86-FF99-423E-A20B-4B33C373D5F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,6 +12,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VtaAlf.Mod
-build_property.ProjectDir = C:\Users\Akela\source\repos\VtaAlf\VtaAlf.Mod\
+build_property.ProjectDir = C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Mod\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

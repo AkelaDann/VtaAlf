@@ -1,0 +1,13 @@
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\bin\Debug\net8.0-windows10.0.19041.0\VtaAlf.Fll.deps.json
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\bin\Debug\net8.0-windows10.0.19041.0\VtaAlf.Fll.dll
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\bin\Debug\net8.0-windows10.0.19041.0\VtaAlf.Fll.pdb
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\obj\Debug\net8.0-windows10.0.19041.0\VtaAlf.Fll.csproj.AssemblyReference.cache
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\obj\Debug\net8.0-windows10.0.19041.0\VtaAlf.Fll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\obj\Debug\net8.0-windows10.0.19041.0\VtaAlf.Fll.AssemblyInfoInputs.cache
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\obj\Debug\net8.0-windows10.0.19041.0\VtaAlf.Fll.AssemblyInfo.cs
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\obj\Debug\net8.0-windows10.0.19041.0\VtaAlf.Fll.csproj.CoreCompileInputs.cache
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\obj\Debug\net8.0-windows10.0.19041.0\VtaAlf.Fll.sourcelink.json
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\obj\Debug\net8.0-windows10.0.19041.0\VtaAlf.Fll.dll
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\obj\Debug\net8.0-windows10.0.19041.0\refint\VtaAlf.Fll.dll
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\obj\Debug\net8.0-windows10.0.19041.0\VtaAlf.Fll.pdb
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\obj\Debug\net8.0-windows10.0.19041.0\ref\VtaAlf.Fll.dll

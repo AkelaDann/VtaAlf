@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0-android34.0": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -2506,10 +2522,71 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-android34.0/android-arm": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -5008,10 +5085,71 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-android34.0/android-arm64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -7510,10 +7648,71 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-android34.0/android-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -10012,10 +10211,71 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-android34.0/android-x86": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -12514,10 +12774,71 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-android34.0/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -15016,10 +15337,71 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-android34.0/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -17518,10 +17900,71 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-android34.0/win10-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -20021,9 +20464,70 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-ios17.0": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20724,9 +21228,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-ios17.0/android-arm": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -21420,10 +21985,71 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-ios17.0/android-arm64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -22117,10 +22743,71 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-ios17.0/android-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -22814,10 +23501,71 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-ios17.0/android-x86": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23511,10 +24259,71 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-ios17.0/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -24208,10 +25017,71 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-ios17.0/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -24905,10 +25775,71 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
         }
       }
     },
     "net8.0-ios17.0/win10-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -25603,9 +26534,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -26376,9 +27368,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0/android-arm": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27064,9 +28117,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0/android-arm64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27752,9 +28866,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0/android-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -28440,9 +29615,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0/android-x86": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -29128,9 +30364,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -29813,9 +31110,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -30501,9 +31859,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst17.0/win10-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -31186,9 +32605,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -32102,9 +33582,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -32905,9 +34446,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -33708,9 +35310,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -34511,9 +36174,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-x86": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -35314,9 +37038,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -36114,9 +37899,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -36917,9 +38763,70 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/win10-x64": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -37726,10 +39633,86 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "VtaAlf.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Fll": "1.0.0",
+          "VtaAlf.Mod": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dal.dll": {}
+        }
+      },
+      "VtaAlf.Fll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Fll.dll": {}
+        }
+      },
+      "VtaAlf.Mod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Mod.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "sha512": "r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
+      ]
+    },
     "GoogleGson/2.10.1.4": {
       "sha512": "L1vdbwbQzvKUoUGiMpMoJG5fqfLXaP6zMy1a26AYJQJSQKUO7Ojr2U5BAmgQoRxQ8J2GDjBfnfgnrsnorb4y5Q==",
       "type": "package",
@@ -42405,58 +44388,92 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
+    },
+    "VtaAlf.Dal/1.0.0": {
+      "type": "project",
+      "path": "../VtaAlf.Dal/VtaAlf.Dal.csproj",
+      "msbuildProject": "../VtaAlf.Dal/VtaAlf.Dal.csproj"
+    },
+    "VtaAlf.Fll/1.0.0": {
+      "type": "project",
+      "path": "../VtaAlf.Fll/VtaAlf.Fll.csproj",
+      "msbuildProject": "../VtaAlf.Fll/VtaAlf.Fll.csproj"
+    },
+    "VtaAlf.Mod/1.0.0": {
+      "type": "project",
+      "path": "../VtaAlf.Mod/VtaAlf.Mod.csproj",
+      "msbuildProject": "../VtaAlf.Mod/VtaAlf.Mod.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.3",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.0"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.0",
+      "VtaAlf.Dal >= 1.0.0",
+      "VtaAlf.Fll >= 1.0.0",
+      "VtaAlf.Mod >= 1.0.0"
     ],
     "net8.0-ios17.0": [
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.3",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.0"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.0",
+      "VtaAlf.Dal >= 1.0.0",
+      "VtaAlf.Fll >= 1.0.0",
+      "VtaAlf.Mod >= 1.0.0"
     ],
     "net8.0-maccatalyst17.0": [
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.3",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.0"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.0",
+      "VtaAlf.Dal >= 1.0.0",
+      "VtaAlf.Fll >= 1.0.0",
+      "VtaAlf.Mod >= 1.0.0"
     ],
     "net8.0-windows10.0.19041": [
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.3",
-      "Microsoft.Maui.Controls.Compatibility >= 8.0.3"
+      "Microsoft.Maui.Controls.Compatibility >= 8.0.3",
+      "VtaAlf.Dal >= 1.0.0",
+      "VtaAlf.Fll >= 1.0.0",
+      "VtaAlf.Mod >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Akela\\.nuget\\packages\\": {},
+    "C:\\Users\\dgallardo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Akela\\source\\repos\\VtaAlf\\VtaAlf.App\\VtaAlf.App.csproj",
+      "projectUniqueName": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.App\\VtaAlf.App.csproj",
       "projectName": "VtaAlf.App",
-      "projectPath": "C:\\Users\\Akela\\source\\repos\\VtaAlf\\VtaAlf.App\\VtaAlf.App.csproj",
-      "packagesPath": "C:\\Users\\Akela\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Akela\\source\\repos\\VtaAlf\\VtaAlf.App\\obj\\",
+      "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.App\\VtaAlf.App.csproj",
+      "packagesPath": "C:\\Users\\dgallardo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.App\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Akela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dgallardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -42468,6 +44485,7 @@
         "net8.0-windows10.0.19041.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
@@ -42475,19 +44493,59 @@
       "frameworks": {
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Dal\\VtaAlf.Dal.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Dal\\VtaAlf.Dal.csproj"
+            },
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Fll\\VtaAlf.Fll.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Fll\\VtaAlf.Fll.csproj"
+            },
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Mod\\VtaAlf.Mod.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Mod\\VtaAlf.Mod.csproj"
+            }
+          }
         },
         "net8.0-ios17.0": {
           "targetAlias": "net8.0-ios",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Dal\\VtaAlf.Dal.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Dal\\VtaAlf.Dal.csproj"
+            },
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Fll\\VtaAlf.Fll.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Fll\\VtaAlf.Fll.csproj"
+            },
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Mod\\VtaAlf.Mod.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Mod\\VtaAlf.Mod.csproj"
+            }
+          }
         },
         "net8.0-maccatalyst17.0": {
           "targetAlias": "net8.0-maccatalyst",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Dal\\VtaAlf.Dal.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Dal\\VtaAlf.Dal.csproj"
+            },
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Fll\\VtaAlf.Fll.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Fll\\VtaAlf.Fll.csproj"
+            },
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Mod\\VtaAlf.Mod.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Mod\\VtaAlf.Mod.csproj"
+            }
+          }
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Dal\\VtaAlf.Dal.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Dal\\VtaAlf.Dal.csproj"
+            },
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Fll\\VtaAlf.Fll.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Fll\\VtaAlf.Fll.csproj"
+            },
+            "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Mod\\VtaAlf.Mod.csproj": {
+              "projectPath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Mod\\VtaAlf.Mod.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -42500,6 +44558,10 @@
       "net8.0-android34.0": {
         "targetAlias": "net8.0-android",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -42547,6 +44609,10 @@
       "net8.0-ios17.0": {
         "targetAlias": "net8.0-ios",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -42594,6 +44660,10 @@
       "net8.0-maccatalyst17.0": {
         "targetAlias": "net8.0-maccatalyst",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -42642,6 +44712,10 @@
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
         "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[8.0.0, )"

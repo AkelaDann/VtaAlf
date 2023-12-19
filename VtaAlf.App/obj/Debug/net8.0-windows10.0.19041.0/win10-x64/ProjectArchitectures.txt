@@ -1,0 +1,6 @@
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.App\VtaAlf.App.csproj;x64
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Dal\VtaAlf.Dal.csproj;neutral
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\VtaAlf.Fll.csproj;neutral
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Fll\VtaAlf.Fll.csproj;neutral
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Mod\VtaAlf.Mod.csproj;neutral
+C:\Users\dgallardo\source\repos\AkelaDann\VtaAlf\VtaAlf.Mod\VtaAlf.Mod.csproj;neutral

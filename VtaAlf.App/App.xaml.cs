@@ -1,4 +1,5 @@
-﻿namespace VtaAlf.App
+﻿
+namespace VtaAlf.App
 {
     public partial class App : Application
     {

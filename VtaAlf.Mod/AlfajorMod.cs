@@ -3,7 +3,7 @@
 namespace VtaAlf.Mod
 {
     // All the code in this file is included in all platforms.
-    public class AlafajorMod
+    public class AlfajorMod
     {
         [Key]
         public int ID { get; set; }

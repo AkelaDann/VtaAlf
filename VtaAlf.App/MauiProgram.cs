@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using VtaAlf.Dal;
+
 
 namespace VtaAlf.App
 {
@@ -15,6 +17,9 @@ namespace VtaAlf.App
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            var dbContext = new AlfajorDbContext();
+            dbContext.Database.EnsureCreated();
+            dbContext.Dispose();
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
