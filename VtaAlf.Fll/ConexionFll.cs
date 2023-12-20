@@ -1,4 +1,7 @@
-﻿namespace VtaAlf.Fll
+﻿using CommunityToolkit.Mvvm.Messaging.Messages;
+using VtaAlf.Dto;
+
+namespace VtaAlf.Fll
 {
     // All the code in this file is included in all platforms.
     public static class ConexionFll
@@ -18,6 +21,19 @@
                 conexionString = Path.Combine(conexionString,"..","Library", NombreBaseDatos);
             }
             return conexionString;
+        }
+    }
+     public class AlfajorMensaje
+    {
+        public bool Crear { get; set; }
+        public AlfajorDto AlfajorDto { get; set; }
+    }
+
+    public class AlfajorMensajeria : ValueChangedMessage<AlfajorMensaje>
+    {
+        public AlfajorMensajeria(AlfajorMensaje value):base(value)
+        {
+            
         }
     }
 }

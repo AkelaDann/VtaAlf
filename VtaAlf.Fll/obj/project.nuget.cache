@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yXYAMe3xkKjgSHrLBSYhKFAI8ONOzjHzakp68v5GVfwqtsXI4niGnVzcfjsoS9AglEd9NARNswiqcprPI8SA/A==",
+  "dgSpecHash": "BxWQc/yJohV5ck8Ii+UD3/buEx0cooHcaLetRi9/iefW9wvQ2FpfQW7H2pMGgbsJY0QxRD91UfogyzW4e+ZtfQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Fll\\VtaAlf.Fll.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dgallardo\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\dgallardo\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\dgallardo\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\dgallardo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

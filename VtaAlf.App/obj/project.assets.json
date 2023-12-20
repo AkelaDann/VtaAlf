@@ -2541,12 +2541,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -5104,12 +5120,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -7667,12 +7699,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -10230,12 +10278,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -12793,12 +12857,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -15356,12 +15436,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -17919,12 +18015,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -20482,12 +20594,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -21246,12 +21374,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -22004,12 +22148,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -22762,12 +22922,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -23520,12 +23696,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -24278,12 +24470,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -25036,12 +25244,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -25794,12 +26018,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -26552,12 +26792,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -27386,12 +27642,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -28135,12 +28407,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -28884,12 +29172,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -29633,12 +29937,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -30382,12 +30702,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -31128,12 +31464,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -31877,12 +32229,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -32623,12 +32991,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -33600,12 +33984,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -34464,12 +34864,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -35328,12 +35744,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -36192,12 +36624,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -37056,12 +37504,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -37917,12 +38381,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -38781,12 +39261,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -39651,12 +40147,28 @@
           "bin/placeholder/VtaAlf.Dal.dll": {}
         }
       },
+      "VtaAlf.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Maui.Controls": "8.0.3",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+        },
+        "compile": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VtaAlf.Dto.dll": {}
+        }
+      },
       "VtaAlf.Fll/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Maui.Controls": "8.0.3",
-          "Microsoft.Maui.Controls.Compatibility": "8.0.3"
+          "Microsoft.Maui.Controls.Compatibility": "8.0.3",
+          "VtaAlf.Dto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VtaAlf.Fll.dll": {}
@@ -44393,6 +44905,11 @@
       "type": "project",
       "path": "../VtaAlf.Dal/VtaAlf.Dal.csproj",
       "msbuildProject": "../VtaAlf.Dal/VtaAlf.Dal.csproj"
+    },
+    "VtaAlf.Dto/1.0.0": {
+      "type": "project",
+      "path": "../VtaAlf.Dto/VtaAlf.Dto.csproj",
+      "msbuildProject": "../VtaAlf.Dto/VtaAlf.Dto.csproj"
     },
     "VtaAlf.Fll/1.0.0": {
       "type": "project",

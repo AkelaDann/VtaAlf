@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ztuQ/JH3d78Lp2NC1O+fVXRKXCowLQVdsTmcV2p18E084i+xz7sJccQUn5vntEWnL65DCqm6PZinmNfA0gvv9Q==",
+  "dgSpecHash": "cBQnjjMH2vZXLTbnkPbyOJphjPBTjhkX0o3MkvfTZey/xiNsJqkZOAQScD//1tTy1uCEH4AU+KYAok74wdV1Zw==",
   "success": true,
   "projectFilePath": "C:\\Users\\dgallardo\\source\\repos\\AkelaDann\\VtaAlf\\VtaAlf.Dal\\VtaAlf.Dal.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dgallardo\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\dgallardo\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\dgallardo\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
     "C:\\Users\\dgallardo\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",

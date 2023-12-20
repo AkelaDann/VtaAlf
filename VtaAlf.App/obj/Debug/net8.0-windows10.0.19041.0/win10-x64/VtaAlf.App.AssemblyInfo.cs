@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VtaAlf.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+32ebf082e563fec90b7973915b81a10c464955d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("VtaAlf.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VtaAlf.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
